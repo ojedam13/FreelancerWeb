@@ -35,3 +35,27 @@ h2{
 h3{
     font-size: 2.4rem;
 }
+
+/* Hero */
+.hero{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero .contenedor{
+    display: grid;
+    align-content: center;
+    height: 100vh;
+}
+.hero .contenido{
+    text-align: center;
+    color: var(--claro);
+}
+.titulo {
+    margin: 0;
+}
+
+.subtitulo{
+    font-size: 1.6rem;
+}
