@@ -98,4 +98,33 @@ p{
         grid-template-columns: repeat(auto-fit, minmax(200px , 1fr) );
         grid-column-gap: 2rem;
     }
+    
+}
+
+/* portafolio */
+
+.elemento {
+    border-bottom: 1px solid #5b5b5b;
+    margin-bottom: 3rem;
+}
+
+.elemento img{
+    max-width: 100%;
+}
+
+@media (min-width:768px) {
+    .listado {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-column-gap: 2rem;
+        grid-auto-rows: max-content;
+    }
+
+
+    .elemento{
+        border: none;
+    }
+    .elemento:nth-child(3){
+        grid-row-end: span 2;
+    }
 }
